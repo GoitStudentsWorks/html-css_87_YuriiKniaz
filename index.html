@@ -1,0 +1,778 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/YuriiKniaz/assets/favicon-c76aed5e.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fresh Harvest Box</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+    
+    <script type="module" crossorigin src="/YuriiKniaz/assets/index-3c4183d9.js"></script>
+    <link rel="stylesheet" href="/YuriiKniaz/assets/index-93842221.css">
+  </head>
+  <body>
+    <header class="fresh-header">
+  <div class="page-header container">
+    <nav class="nav-box">
+      <ul class="nav-ul">
+        <li class="nav-ul-item">
+          <a href="#how-it-works" class="nav-links link">How It Works</a>
+        </li>
+        <li class="nav-ul-item">
+          <a href="#organic-fruits" class="nav-links link">Fruits</a>
+        </li>
+        <li class="nav-ul-item">
+          <a href="#contacts" class="nav-links link">Contacts</a>
+        </li>
+      </ul>
+      <div class="logo-box">
+        <svg width="16" height="16">
+          <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-logo"></use>
+        </svg>
+        <span class="logo-text">fresh harvest box</span>
+      </div>
+    </nav>
+
+    <div class="cart-box">
+      <svg width="28" height="28">
+        <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-cart"></use>
+      </svg>
+    </div>
+    <button
+      class="menu-toggle js-open-menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+      title="burger-button"
+    >
+      <svg width="24" height="24">
+        <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-mob-menu-left"></use>
+      </svg>
+    </button>
+  </div>
+</header>
+
+<!-- MODILE MENU -->
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <div class="mobail-menu-header container">
+    <ul class="mobail-header-ul">
+      <li class="">
+        <div class="logo-box">
+          <svg width="16" height="16">
+            <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-logo"></use>
+          </svg>
+          <span class="logo-text">fresh harvest box</span>
+        </div>
+      </li>
+      <li>
+        <button class="modal-close-btn js-close-menu" type="button">
+          <svg width="12" height="12">
+            <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-close"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="mobail-menu-main">
+    <ul class="mobile-body-ul list">
+      <li class="mobile-body-ul-item">
+        <a href="#how-it-works" class="mobile-links link js-close-menu-link1"
+          >How It Works</a
+        >
+      </li>
+      <li class="mobile-body-ul-item">
+        <a href="#organic-fruits" class="mobile-links link js-close-menu-link2"
+          >Fruits</a
+        >
+      </li>
+      <li class="mobile-body-ul-item">
+        <a href="#contacts" class="mobile-links link js-close-menu-link3"
+          >Contacts</a
+        >
+      </li>
+      <li class="mobile-body-ul-item">
+        <svg width="28" height="28">
+          <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-cart"></use>
+        </svg>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <section class="hero section">
+  <div class="container">
+    <div class="hero-main">
+      <h1 class="hero-title">
+        fresh harvest box <br />
+        is your one-stop place for a delicious fruit basket
+      </h1>
+      <div class="girl">
+        <div class="girl-place"></div>
+        <!-- <button class="button-shopnow" type="button" onclick="">
+          
+        </button> -->
+        <a class="button-shopnow" href="#organic-fruits">
+          <span class="shopnow-text">Shop<br />Now</span>
+        </a>
+      </div>
+    </div>
+    <ul class="content-hero">
+      <li class="content-hero-item">
+        <p class="text">
+          Our expertly curated fruit baskets are made with the freshest, highest
+          quality fruits available. Whether you are looking for a healthy snack
+          or a gift for a loved one, Fresh Harvest Box has got you covered.
+        </p>
+        <div class="watermelon-place">
+          <h2 class="watermelon-place-title">Fruit</h2>
+          <div class="watermelon-content">
+            <img
+              class="watermelon-place-image"
+              srcset="/YuriiKniaz/assets/watermelon-section-one-088de6f0.webp 1x, /YuriiKniaz/assets/watermelon-section-one@2x-21e05df6.webp 2x"
+              src="/YuriiKniaz/assets/watermelon-section-one-088de6f0.webp"
+              alt="Watermelon"
+              width="239"
+              height="172"
+            />
+            <p class="watermelon-place-text">
+              Refreshing and juicy, watermelon is the perfect summer treat and a
+              great source of hydration
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="content-hero-item second">
+        <ul class="hero-list">
+          <li class="hero-list-item">
+            <h3 class="hero-list-item-title">&#35;Organic</h3>
+          </li>
+          <li class="hero-list-item">
+            <h3 class="hero-list-item-title">&#35;Products</h3>
+          </li>
+          <li class="hero-list-item">
+            <h3 class="hero-list-item-title">&#35;Basket</h3>
+          </li>
+          <li class="hero-list-item">
+            <h3 class="hero-list-item-title">&#35;Fruits</h3>
+          </li>
+        </ul>
+        <div class="strawberry-place">
+          <h2 class="strawberry-place-title">Fruit</h2>
+          <div class="strawberry-content">
+            <img
+              class="strawberry-place-image"
+              srcset="/YuriiKniaz/assets/strawberry-section-one-42f05db4.webp 1x, /YuriiKniaz/assets/strawberry-section-one@2x-5e2771c3.webp 2x"
+              src="/YuriiKniaz/assets/strawberry-section-one-42f05db4.webp"
+              alt="Strawberry"
+              width="239"
+              height="185"
+            />
+            <p class="strawberry-place-text">
+              Sweet and juicy, strawberries are packed with vitamin C and
+              antioxidants, making them a delicious and healthy snack
+            </p>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section class="steps section" id="how-it-works">
+  <div class="container">
+    <h2 class="steps-title">
+      To order your fruit basket, simply follow these easy steps
+    </h2>
+    <p class="steps-text">
+      Our baskets are assembled with care and delivered straight to your
+      doorstep, so you can enjoy the taste of fresh fruit without ever leaving
+      your home. Whether you're looking for a healthy snack or a thoughtful
+      gift, our fruit baskets are the perfect choice.
+    </p>
+    <ul class="steps-list">
+      <li class="steps-list-item">
+        <span class="steps-list-num">FIrst Step</span>
+        <p class="steps-list-text">
+          Just choose the fruit you want to order by clicking on the checkboxes
+          next to it.
+        </p>
+      </li>
+      <li class="steps-list-item">
+        <span class="steps-list-num">Second Step</span>
+        <p class="steps-list-text">
+          Click on the basket and fill out the form.
+        </p>
+      </li>
+      <li class="steps-list-item">
+        <span class="steps-list-num">Third Step</span>
+        <p class="steps-list-text">
+          Sit back and relax! Your fresh fruit basket will be delivered.
+        </p>
+      </li>
+    </ul>
+    <div class="steps-gif-box">
+      <img
+        class="steps-gif"
+        src="/YuriiKniaz/assets/fresh-harvest-box-3ff1c3c8.gif"
+        alt="fresh fruits"
+        width="704"
+        height="476"
+        loading="lazy"
+      />
+    </div>
+  </div>
+</section>
+
+    <section class="organic-fruits section" id="organic-fruits">
+  <div class="container container-product">
+    <h1 class="saglav-organic">ORGANIC FRUITS</h1>
+    <p class="paragraf-organic">
+      Our organic fruits are hand-picked from local farms and delivered straight
+      to your doorstep, ensuring that you get the freshest and most nutritious
+      produce possible. We offer a wide selection of organic fruits grown
+      without the use of harmful pesticides or chemicals.
+    </p>
+    <ul class="cards-fruits list">
+      <li class="iconka iconka-strawberry">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Strawberry</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/strawberry@1x-48fefd11.webp 1x, /YuriiKniaz/assets/strawberry@2x-99bc1194.webp 2x"
+              src="/YuriiKniaz/assets/strawberry@1x-48fefd11.webp"
+              alt="Strawberry"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">100 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-banana">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Banana</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/bananna@1x-1ba13a08.webp 1x, /YuriiKniaz/assets/bananna@2x-7f0a1766.webp 2x"
+              src="/YuriiKniaz/assets/bananna@1x-1ba13a08.webp"
+              alt="Banana"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">80 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-watermelon">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Watermelon</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/watermelon@1x-9ddf9a25.webp 1x, /YuriiKniaz/assets/watermelon@2x-4401220f.webp 2x"
+              src="/YuriiKniaz/assets/watermelon@1x-9ddf9a25.webp"
+              alt="Watermelon"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">40 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-lime">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Lime</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/lime@1x-4492b093.webp 1x, /YuriiKniaz/assets/lime@2x-00d7b36c.webp 2x"
+              src="/YuriiKniaz/assets/lime@1x-4492b093.webp"
+              alt="Lime"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">60 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-apple">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Apple</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/apple@1x-ec2c4618.webp 1x, /YuriiKniaz/assets/apple@2x-ca3c54ef.webp 2x"
+              src="/YuriiKniaz/assets/apple@1x-ec2c4618.webp"
+              alt="Apple"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">50 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-peach">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Peach</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/peach@1x-38547c92.webp 1x, /YuriiKniaz/assets/peach@2x-c86b28b7.webp 2x"
+              src="/YuriiKniaz/assets/peach@1x-38547c92.webp"
+              alt="Peach"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">80 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-plums">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Plums</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/plums@1x-9aa01133.webp 1x, /YuriiKniaz/assets/plums@2x-63311183.webp 2x"
+              src="/YuriiKniaz/assets/plums@1x-9aa01133.webp"
+              alt="Plums"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">40 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-orange">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Orange</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/orange@1x-7b5af4d2.webp 1x, /YuriiKniaz/assets/orange@2x-f941a21c.webp 2x"
+              src="/YuriiKniaz/assets/orange@1x-7b5af4d2.webp"
+              alt="Orange"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">60 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+      <li class="iconka iconka-kiwi">
+        <a class="block-link link" href="">
+          <div class="block-info">
+            <h2 class="block-saglav">Kiwi</h2>
+            <p class="block-paragraf">Plant</p>
+          </div>
+          <div class="block-foto">
+            <img
+              srcset="/YuriiKniaz/assets/kiwi@1x-c34677f5.webp 1x, /YuriiKniaz/assets/kiwi@2x-53a9ca45.webp 2x"
+              src="/YuriiKniaz/assets/kiwi@1x-c34677f5.webp"
+              alt="Kiwi"
+              width="295"
+              height="251"
+            />
+          </div>
+          <div class="block-pay">
+            <h2 class="mony-pay">90 UAH/kg</h2>
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <!-- Modal button -->
+    <div class="btn-order-box">
+      <button class="order-button-modal" type="button" data-modal-open>
+        <span class="text-order-btn">order</span>
+        <svg class="order-svg" width="14" height="14">
+          <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-vector-order"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</section>
+
+    <!-- modal window -->
+<div class="backdrop is-hidden" data-modal>
+  <div class="backdrop-window">
+    <button class="btn-close" data-modal-close>
+      <svg class="cross-icon" width="14" height="14">
+        <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <!-- modal title -->
+
+    <h2 class="title-modal">your order</h2>
+
+    <!-- modal forms with fruits -->
+    <div class="modal-fruit-box">
+      <ul class="modal-fruit-list">
+        <li class="modal-fruit-items">
+          <div class="check-modal">
+            <form class="modal-form-fruit">
+              <input
+                class="modal-form-agreement-box"
+                type="checkbox"
+                name="user_agreement"
+                id="agree-first"
+              />
+            </form>
+          </div>
+          <div class="text-basket">
+            <h3 class="modal-title-basket">Strawberry Basket</h3>
+            <p class="modal-text-basket">Plant</p>
+          </div>
+          <div>
+            <img
+              class="modal-img-basket"
+              srcset="/YuriiKniaz/assets/strawberry-basket@1x-24a1b12e.webp 1x, /YuriiKniaz/assets/strawberry-basket@2x-a1e3b206.webp 2x"
+              src="/YuriiKniaz/assets/strawberry-basket@1x-24a1b12e.webp"
+              alt="strawberry basket"
+              width="173"
+              height="196"
+            />
+          </div>
+        </li>
+        <li class="modal-fruit-items yellow">
+          <div class="check-modal">
+            <form class="modal-form-fruit">
+              <input
+                class="modal-form-agreement-box"
+                type="checkbox"
+                name="user_agreement"
+                id="agree-second"
+              />
+            </form>
+          </div>
+          <div class="text-basket">
+            <h3 class="modal-title-basket">Apple Basket</h3>
+            <p class="modal-text-basket">Plant</p>
+          </div>
+          <div>
+            <img
+              class="modal-img-basket-size"
+              srcset="/YuriiKniaz/assets/apple-basket@1x-0a5e83e0.webp 1x, /YuriiKniaz/assets/apple-basket@2x-b28201a0.webp 2x"
+              src="/YuriiKniaz/assets/apple-basket@1x-0a5e83e0.webp"
+              alt="apple basket"
+              width="173"
+              height="196"
+            />
+          </div>
+        </li>
+        <li class="modal-fruit-items green">
+          <div class="check-modal">
+            <form class="modal-form-fruit">
+              <input
+                class="modal-form-agreement-box"
+                type="checkbox"
+                name="user_agreement"
+                id="agree-third"
+              />
+            </form>
+          </div>
+          <div class="text-basket">
+            <h3 class="modal-title-basket">Fruits Basket</h3>
+            <p class="modal-text-basket">Plant</p>
+          </div>
+          <div>
+            <img
+              class="modal-img-basket-size"
+              srcset="/YuriiKniaz/assets/fruits-basket@1x-f1905b22.webp 1x, /YuriiKniaz/assets/fruits-basket@2x-bcda619d.webp 2x"
+              src="/YuriiKniaz/assets/fruits-basket@1x-f1905b22.webp"
+              alt="strawberry basket"
+              width="173"
+              height="196"
+            />
+          </div>
+        </li>
+      </ul>
+    </div>
+    <!-- <div class="box-form"> -->
+    <form class="modal-form">
+      <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          type="text"
+          name="user-name"
+          id="user-name"
+          placeholder="Enter full name..."
+          pattern="([a-zA-Z]+\s){1,}([a-zA-Z]+)"
+        />
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
+      </div>
+      <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          type="email"
+          name="user-mail"
+          id="user-mail"
+          placeholder="Enter email..."
+        />
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
+      </div>
+      <div class="madal-form-box">
+        <input
+          class="modal-form-input"
+          name="credit-number"
+          type="tel"
+          pattern="[0-9]{16}"
+          minlength="16"
+          maxlength="16"
+          placeholder="Enter card.."
+        />
+        <!-- <svg class="modal-form-icon" width="18" height="24">
+          <use href="/img/icon.svg#icon-name"></use>
+        </svg> -->
+      </div>
+
+      <div class="madal-text-box">
+        <textarea
+          class="modal-textarea"
+          name="user-comment"
+          id="comment"
+          rows="5"
+          placeholder="Enter comments..."
+        >
+        </textarea>
+      </div>
+      <button class="btn-modal-submit" type="submit">submit</button>
+    </form>
+  </div>
+</div>
+
+    <section class="contacts-section section" id="contacts">
+  <div class="contacts-container container">
+    <h2 class="contacts-title">Fresh harvest box has got you covered</h2>
+    <ul class="contact-decorate">
+      <li class="melon-item">
+        <img
+          class="contact-picture"
+          srcset="/YuriiKniaz/assets/melon_335-4c1529a6.webp 335w, /YuriiKniaz/assets/melon_344-769d7db8.webp 344w, /YuriiKniaz/assets/melon_670-68534ef6.webp 670w, /YuriiKniaz/assets/melon_688-9c30578a.webp 688w, /YuriiKniaz/assets/melon_792-938d5b39.webp 792w, /YuriiKniaz/assets/melon_1584-7ea390bc.webp 1584w"
+          sizes="(min-width: 1280px) 792px, (min-width: 768px) 344px, (min-width: 375px) 335px,100vw"
+          src="/YuriiKniaz/assets/melon_335-4c1529a6.webp"
+          alt="melon"
+          width="792"
+          height="502"
+        />
+      </li>
+      <li class="bilberry-item">
+        <img
+          class="contact-picture"
+          srcset="/YuriiKniaz/assets/bilberry_344-7dd0513d.webp 344w, /YuriiKniaz/assets/bilberry_400-a6ffe06f.webp 400w, /YuriiKniaz/assets/bilberry_688-c489ef2e.webp 688w, /YuriiKniaz/assets/bilberry_800-77da3717.webp 800w"
+          sizes="(min-width: 1280px) 400px, (min-width: 768px) 344px, 100vw"
+          src="/YuriiKniaz/assets/bilberry_344-7dd0513d.webp"
+          alt="bilberry"
+          width="400"
+          height="502"
+        />
+      </li>
+    </ul>
+    <div class="subscription">
+      <p class="contacts-description">
+        Our boxes are packed with delicious, nutritious fruits and vegetables,
+        perfect for anyone looking to eat healthier or support local farmers.
+        Order your box today and start enjoying the best that nature has to
+        offer!
+      </p>
+      <form class="contacts-form" name="signup_form" autocomplete="on">
+        <input
+          class="contacts-email"
+          type="email"
+          name="email"
+          placeholder="Enter email..."
+          required
+          minlength="5"
+        />
+        <button class="contacts-button" type="button" data-modal-open-second>
+          Send
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer -->
+<footer class="footer">
+  <div class="container footer-block">
+    <div class="footer-logo-block">
+      <div class="footer-img-logo">
+        <img
+          class="footer-img"
+          srcset="/YuriiKniaz/assets/foot_img_349-11204605.webp 349w, /YuriiKniaz/assets/foot_img_698-f6c2d5bd.webp 698w"
+          sizes="(min-width: 768px) 349px, (min-width: 480px) 335px, 100vw"
+          src="/YuriiKniaz/assets/foot_img_349-11204605.webp"
+          alt="Image of a girl with bananas"
+          width="349"
+          height="179"
+        />
+        <a href="./index.html" class="footer-logo link">
+          <svg class="logo-svg" width="16" height="16">
+            <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-logo"></use>
+          </svg>
+          <span class="footer-txt">FRESH HARVEST BOX</span>
+        </a>
+      </div>
+      <nav class="footer-nav-box">
+        <ul class="nav-ul">
+          <li class="nav-ul-item">
+            <a href="#how-it-works" class="nav-links link">How It Works</a>
+          </li>
+          <li class="nav-ul-item">
+            <a href="#organic-fruits" class="nav-links link">Fruits</a>
+          </li>
+          <li class="nav-ul-item">
+            <a href="#contacts" class="nav-links link">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="footer-contacts">
+      <div class="social-media">
+        <ul class="social media-list">
+          <li class="social-item list">
+            <a
+              class="social-link link"
+              href="https://facebook.com"
+              target="blank"
+              rel="noopener no-referrer"
+              aria-label="facebook link"
+            >
+              <svg class="social-icon" width="24" height="24">
+                <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item list">
+            <a
+              class="social-link link"
+              href="https://instagram.com"
+              target="blank"
+              rel="noopener no-referrer"
+              aria-label="instagram link"
+            >
+              <svg class="social-icon" width="24" height="24">
+                <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social-item list">
+            <a
+              class="social-link link"
+              href="https://youtube.com"
+              target="blank"
+              rel="noopener no-referrer"
+              aria-label="youtube link"
+            >
+              <svg class="social-icon" width="24" height="24">
+                <use href="/YuriiKniaz/assets/icons-a746da3f.svg#icon-youtube"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <address class="footer-address">
+        <ul class="auth-nav list">
+          <li class="item phone">
+            <a href="tel:+380684439426" class="info link"
+              >+380 (68) 443-94-26</a
+            >
+          </li>
+          <li class="item address">
+            <a
+              href="https://goo.gl/maps/N25MgYViZaoJzKiC6?coh=178573&entry=tt"
+              class="info link"
+              >1678 S. Pioneer Road Salt Lake City UT 84104</a
+            >
+          </li>
+        </ul>
+      </address>
+    </div>
+  </div>
+</footer>
+
+    <!-- Modal - THANK YOU -->
+<div class="backdrop-second is-hidden-second" data-modal-second>
+  <div class="modal-second">
+    <button class="btn-close-second" type="button" data-modal-close-second>
+      <svg class="modal-second-cross-icon" width="14" height="14">
+        <use href="/YuriiKniaz/assets/icons-a746da3f.svg#close-crose-icon"></use>
+      </svg>
+    </button>
+    <div class="modal-second-thank-you">
+      <img
+        srcset="/YuriiKniaz/assets/raspberry_@1x-67f71ec8.webp 278w, /YuriiKniaz/assets/raspberry_@2x-afbcaaff.webp 556w"
+        src="/YuriiKniaz/assets/raspberry_@1x-67f71ec8.webp"
+        sizes="(min-width:768px) 278px"
+        alt="photo of raspberry"
+        width="278"
+        height="239"
+      />
+    </div>
+    <h2 class="modal-second-title">THANK YOU</h2>
+    <p class="modal-second-text">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
+  </div>
+</div>
+
+
+    <!-- script for open modal window -->
+
+    <script
+      defer=""
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+    <!-- <script src="./js/modal.js"></script>
+    <script src="./js/modal-second.js"></script>
+    <script src="./js/mobile-menu.js"></script> -->
+    
+  </body>
+</html>
